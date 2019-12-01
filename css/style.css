@@ -1112,7 +1112,8 @@ a:focus, a:hover {
 }
 
 .counter {
-  padding-top: 180px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .counter .counter-item {

@@ -217,8 +217,8 @@ html {
   text-rendering: optimizeLegibility;
   -moz-font-feature-settings: "liga" on;
 }
-p {
-  margin-bottom: 1.3em;
+/* p {
+  margin-bottom: 1.3em; */
 }
 h1,
 h2,

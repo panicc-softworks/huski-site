@@ -216,10 +216,11 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   -moz-font-feature-settings: "liga" on;
+  font-feature-settings: "liga" on;
 }
 /* p {
-  margin-bottom: 1.3em; */
-}
+  margin-bottom: 1.3em; 
+}*/
 h1,
 h2,
 h3,
@@ -981,7 +982,7 @@ select::-ms-expand {
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
-  user-drag: none;
+  user-zoom: none;
 }
 @media (min-width: 600px) {
   .step__image {
@@ -1281,7 +1282,7 @@ select::-ms-expand {
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
-  user-drag: none;
+  user-zoom: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;

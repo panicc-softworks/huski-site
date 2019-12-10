@@ -25,33 +25,33 @@
         // -----------------------------
         //  Testimonial Slider
         // -----------------------------
-         $('.testimonial-slider').slick({
-            responsive: [
-                {
-                  breakpoint: 768,
-                  settings: {
-                    arrows: false
-                  }
-                }
-            ]
-         });
+        //  $('.testimonial-slider').slick({
+        //     responsive: [
+        //         {
+        //           breakpoint: 768,
+        //           settings: {
+        //             arrows: false
+        //           }
+        //         }
+        //     ]
+        //  });
         // -----------------------------
         //  Screenshot Slider
         // -----------------------------
-        $('.screenshot-slider').slick({
-            dots: true,
-            slidesToShow: 3,
-            centerMode: true,
-            infinite: false,
-            responsive: [
-                {
-                  breakpoint: 768,
-                  settings: {
-                    arrows: false
-                  }
-                }
-            ]
-         });
+        // $('.screenshot-slider').slick({
+        //     dots: true,
+        //     slidesToShow: 3,
+        //     centerMode: true,
+        //     infinite: false,
+        //     responsive: [
+        //         {
+        //           breakpoint: 768,
+        //           settings: {
+        //             arrows: false
+        //           }
+        //         }
+        //     ]
+        //  });
         // -----------------------------
         //  Video Replace
         // -----------------------------

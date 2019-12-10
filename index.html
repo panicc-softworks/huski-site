@@ -60,8 +60,8 @@
 			<div class="col-md-8 align-self-center">
 				<!-- Contents -->
 				<div class="content-block">
-					<h1>Everything you need in an app</h1>
-					<h5>the only companion app for your snow sports you will ever need! and it's free! download today and start winning!</h5>
+					<h1 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Your snow sports companion</h1>
+					<h5 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">huski is partnered with <a style="font-size: 20px;color: red;" href="https://parnassos-ski.gr" target="_blank">parnassos </a>snow center and it's now free! download today and start winning!</h5>
 					<!-- App Badge -->
 					<!-- <div class="app-badge">
 						<ul class="list-inline">
@@ -188,8 +188,9 @@
 						<p>With us your data are safe as we only collect them to help us improve our services. You can opt out at any time!</p>
 					</div>
 				</div>
-				<div class="app-screen">
-					<img class="img-fluid" src="images/phones/i-phone-screen.png" alt="app-screen">
+				<div>
+					<!-- <img class="img-fluid" src="images/phones/i-phone-screen.png" alt="app-screen"> -->
+					<img id="image" src="https://www.w3schools.com/css/img_fjords.jpg">
 				</div>
 				<!-- Feature Item -->
 				<div class="feature-item">
@@ -755,5 +756,18 @@
   <!-- <script src="plugins/slick/slick.min.js"></script> -->
   <script src="plugins/smoothscroll/SmoothScroll.min.js"></script>
   <script src="js/custom.js"></script>
-</body>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+  <script>
+	var imageSources = ["https://www.w3schools.com/css/img_fjords.jpg", "https://www.w3schools.com/howto/img_mountains.jpg"]
+
+	var index = 0;
+	setInterval(function(){
+	  if (index === imageSources.length) {
+		index = 0;
+	  }
+	  document.getElementById("image").src = imageSources[index];
+	  index++;
+	}, 2000);
+  </script>
+  </body>
 </html>

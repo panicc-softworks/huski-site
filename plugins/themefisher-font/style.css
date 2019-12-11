@@ -41,3 +41,7 @@
 .tf-ion-social-linkedin:before {
   content: "\f239";
 }
+.tf-ion-android-menu:before {
+  content: "\f394";
+  color: white;
+}

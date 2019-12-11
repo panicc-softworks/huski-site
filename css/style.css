@@ -120,7 +120,7 @@ a:hover {
   text-decoration: none;
 }
 .bg-1 {
-  background: url(../images/backgrounds/banner-bg.jpg) no-repeat;
+  background: url(../images/backgrounds/banner-bg.webp) no-repeat;
   background-size: cover;
 }
 .bg-2 {
